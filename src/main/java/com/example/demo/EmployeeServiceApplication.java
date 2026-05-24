@@ -15,6 +15,7 @@ public class EmployeeServiceApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("init() method of EmployeeServiceApplication");
+		logger.info("2nd line of init() method of EmployeeServiceApplication.");
 	}
 
 	public static void main(String[] args) {
